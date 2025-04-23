@@ -5,14 +5,16 @@ import LanguageDetector from "i18next-browser-languagedetector";
 import enUiElements from "./locales/en/uiElements.json";
 import plUiElements from "./locales/pl/uiElements.json";
 
+const RESOURCES = {
+    en: { uiElements: enUiElements },
+    pl: { uiElements: plUiElements },
+}
+
 i18n
     .use(LanguageDetector)
     .use(initReactI18next) // passes i18n down to react-i18next
     .init({
-        resources: {
-            en: { uiElements: enUiElements },
-            pl: { uiElements: plUiElements },
-        },
+        resources: RESOURCES,
         fallbackLng: "en",
         ns: ["uiElements"],
         defaultNS: "uiElements",
@@ -21,4 +23,8 @@ i18n
         },
     });
 
+
 export default i18n;
+
+export const SUPPORTED_LANGUAGES = Object.keys(
+    RESOURCES);

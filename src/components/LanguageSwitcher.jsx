@@ -1,6 +1,4 @@
-
-import { LANGUAGES } from "../locales/languages";
-import i18n from "../i18n";
+import i18n, { SUPPORTED_LANGUAGES } from "../i18n";
 
 export default function LanguageSwitcher() {
     function handleLanguageChange(event) {
@@ -8,11 +6,14 @@ export default function LanguageSwitcher() {
         i18n.changeLanguage(selectedLanguage);
     }
 
+    const availableLanguages = SUPPORTED_LANGUAGES;
+    const currentLanguage = i18n.language;
+
     return (
-        <select onChange={handleLanguageChange} value={i18n.language}>
-            {LANGUAGES.map((language) => (
-                <option key={language.code} value={language.code}>
-                    {language.name}
+        <select onChange={handleLanguageChange} value={currentLanguage}>
+            {availableLanguages.map((language) => (
+                <option key={language} value={language}>
+                    {language}
                 </option>
             ))}
         </select>);
