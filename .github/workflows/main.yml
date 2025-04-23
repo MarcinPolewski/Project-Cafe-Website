@@ -20,37 +20,25 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: run linter
-        run: |
-          npm run lint --if-present
+        run: npm run lint --if-present
       - name: Build
         run: npm run build
-      - name: Upload production bundle
-        if: success() && github.event_name == 'push'
-        uses: actions/upload-artifact@v4
-        with:
-          name: dist
-          path: |
-            dist
-          retention-days: 90
-
-  deploy-pages:
-    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-    needs: build-test
-    runs-on: ubuntu-latest
-
-    permissions:
-      pages: write        
-      id-token: write     
-
-    steps:
-      - name: Download artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: dist
-          path: ./dist
-      - name: Deploy to GitHub Pages
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist          
-      - name: Publish
+          path: ./dist
+  deploy:
+    needs: build-test
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write      
+      id-token: write   
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Deploy to github pages
+        id: deployment
         uses: actions/deploy-pages@v4
