@@ -28,6 +28,7 @@ jobs:
         with:
           path: ./dist
   deploy:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     needs: build-test
     runs-on: ubuntu-latest
     permissions:

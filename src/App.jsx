@@ -1,7 +1,7 @@
 import './App.css'
 // import LanguageSwitcher from './components/LanguageSwitcher'
 // import { useTranslation } from 'react-i18next';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
@@ -12,6 +12,7 @@ const router = createHashRouter([
   {
     path: '/',
     element: <RootLayout />,
+    errorElement: <ErrorPage />,
     children: [
       { index: true, element: <HomePage /> },
       { path: 'about', element: <AboutPage /> },
