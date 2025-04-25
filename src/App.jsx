@@ -1,6 +1,6 @@
 import './App.css'
-import LanguageSwitcher from './components/LanguageSwitcher'
-import { useTranslation } from 'react-i18next';
+// import LanguageSwitcher from './components/LanguageSwitcher'
+// import { useTranslation } from 'react-i18next';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
