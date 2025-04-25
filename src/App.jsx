@@ -8,11 +8,10 @@ import ContactPage from './pages/ContactPage';
 import RootLayout from './layouts/RootLayout';
 import ErrorPage from './pages/ErrorPage';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/',
     element: <RootLayout />,
-    errorElement: <ErrorPage />,
     children: [
       { index: true, element: <HomePage /> },
       { path: 'about', element: <AboutPage /> },
