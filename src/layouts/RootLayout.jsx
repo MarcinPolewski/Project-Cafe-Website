@@ -1,8 +1,9 @@
 import { Outlet } from 'react-router-dom';
+import NavigationBar from '../components/NavigationBar';
 function RootLayout() {
     return (
         <div>
-            <h1>Navigation</h1>
+            <NavigationBar />
             <Outlet />
             <h1>Footer</h1>
         </div>

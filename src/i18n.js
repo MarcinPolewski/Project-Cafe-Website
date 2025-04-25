@@ -23,8 +23,7 @@ i18n
         },
     });
 
-
 export default i18n;
-
 export const SUPPORTED_LANGUAGES = Object.keys(
     RESOURCES);
+
