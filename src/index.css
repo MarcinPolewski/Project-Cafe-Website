@@ -1,6 +1,10 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+  color: #ECDFCC;
+}
+
 a {
   display: inline-block;
-  color: #F7F7F7;
   text-decoration: none;
 }
 

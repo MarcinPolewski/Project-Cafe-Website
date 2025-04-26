@@ -1,15 +1,31 @@
 .navigationBar {
     height: 50px;
     width: 100%;
-    background-color: red;
+    background-color: #ECDFCC;
+
     position: fixed;
-    top: 10px;
     display: flex;
     justify-content: center;
     z-index: 1000;
+    opacity: 0.9;
+    margin: 10px;
 }
 
 .navigationBar ul {
     height: 100%;
     margin: 0;
 }
+
+.navigationBar a {
+    color: #1E201E;
+}
+
+/* .navigationBar a.active {
+    color: #000;
+    text-decoration: underline;
+}
+
+.navigationBar a:hover {
+    transform: scale(1.05) translateY(-0.15rem);
+    transition: all 0.2s ease-in-out;
+} */

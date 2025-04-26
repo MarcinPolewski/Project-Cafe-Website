@@ -16,21 +16,21 @@ function NavigationBar() {
                 <Logo />
                 <NavLink
                     to="/"
-                    className={({ isActive }) => (isActive ? "active" : "")}
+                    className={({ isActive }) => isActive ? classes.activeNavLink : classes.navLink}
                     end
                 >
                     {t("nav.home")}
                 </NavLink>
                 <NavLink
                     to="/about"
-                    className={({ isActive }) => (isActive ? "active" : "")}
+                    className={({ isActive }) => isActive ? classes.activeNavLink : classes.navLink}
                     end
                 >
                     {t("nav.about")}
                 </NavLink>
                 <NavLink
                     to="/contact"
-                    className={({ isActive }) => (isActive ? "active" : "")}
+                    className={({ isActive }) => isActive ? classes.activeNavLink : classes.navLink}
                     end
                 >
                     {t("nav.contact")}

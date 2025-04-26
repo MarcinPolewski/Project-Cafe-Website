@@ -8,7 +8,20 @@
 }
 
 .imageFrame {
+    position: relative;
     height: 100vh;
     width: 100vw;
     overflow: hidden;
+}
+
+:global(#panel1) {
+    background-color: #697565;
+}
+
+:global(#panel2) {
+    background-color: #3C3D37;
+}
+
+:global(#panel3) {
+    background-color: #D6C0B3;
 }

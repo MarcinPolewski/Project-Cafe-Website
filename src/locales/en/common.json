@@ -1,0 +1,13 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "homePage":{
+      "title": "The Barista café",
+      "panel1": "This is the text for first panel",
+      "panel2": "This is the text for second panel",
+      "panel3": "This is the text for third panel"
+  }
+}
