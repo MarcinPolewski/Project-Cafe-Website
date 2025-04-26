@@ -20,8 +20,10 @@
 
 }
 
+
+
 .textDiv {
-    max-width: 30%;
+    max-width: clamp(10px, 30%, 30%);
     letter-spacing: 5%;
     text-align: center;
 }
@@ -36,4 +38,16 @@
 
 :global(#panel3) {
     background-color: #D6C0B3;
+}
+
+@media screen and (max-width: 500px) {
+    .PanelImg {
+        height: 60%;
+        width: auto;
+    }
+
+    .textDiv {
+        max-width: 80%;
+    }
+
 }
