@@ -1,7 +1,7 @@
 .scrollingImages {
     display: flex;
     animation: scrollHorizontal 50s linear infinite;
-
+    height: 100%;
 }
 
 .scrollingImages:hover {
@@ -11,11 +11,18 @@
 .imageView {
     background-color: red;
     display: flex;
+    height: 40vh;
+}
+
+.imageContainer {
+    height: 100%;
 }
 
 .image {
-    border: 1px solid black;
+    object-fit: contain;
+    height: 100%;
 }
+
 
 @keyframes scrollHorizontal {
     0% {
