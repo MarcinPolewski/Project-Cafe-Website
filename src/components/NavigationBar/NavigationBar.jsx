@@ -1,7 +1,9 @@
 import { NavLink } from "react-router-dom";
-import LanguageSwitcher from "./LanguageSwitcher";
+import LanguageSwitcher from "../LanguageSwitcher";
 import { useTranslation } from "react-i18next";
-import Logo from "./Logo";
+import Logo from "../Logo/Logo";
+
+import classes from "./NavigationBar.module.css";
 
 function NavigationBar() {
     const { t, i18n } = useTranslation();
@@ -9,7 +11,7 @@ function NavigationBar() {
     console.log(i18n.language)
 
     return (
-        <nav>
+        <nav className={classes.navigationBar}>
             <ul>
                 <Logo />
                 <NavLink

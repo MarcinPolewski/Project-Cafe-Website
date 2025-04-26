@@ -1,0 +1,15 @@
+.navigationBar {
+    height: 50px;
+    width: 100%;
+    background-color: red;
+    position: fixed;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.navigationBar ul {
+    height: 100%;
+    margin: 0;
+}

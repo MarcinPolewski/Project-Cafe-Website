@@ -1,4 +1,8 @@
+import Panel from "../components/Panel/Panel"
+
 function AboutPage() {
-    return <h1>About Page</h1>
+    return (
+        <Panel>test</Panel>
+    );
 }
 export default AboutPage;
