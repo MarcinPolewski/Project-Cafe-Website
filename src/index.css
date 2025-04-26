@@ -1,6 +1,6 @@
 * {
   font-family: 'Courier New', Courier, monospace;
-  color: #ECDFCC;
+  color: #d5c4a9;
 }
 
 a {
@@ -26,6 +26,8 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100%;
+  overflow-x: hidden;
+
 }
 
 .fade-in {
