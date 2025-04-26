@@ -1,0 +1,19 @@
+.imageView {
+    background-color: red;
+    display: flex;
+}
+
+.image {
+    border: 1px solid black;
+    animation: scrollHorizontal 10s linear infinite;
+}
+
+@keyframes scrollHorizontal {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}

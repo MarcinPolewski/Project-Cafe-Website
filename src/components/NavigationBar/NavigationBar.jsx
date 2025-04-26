@@ -11,7 +11,7 @@ function NavigationBar() {
     console.log(i18n.language)
 
     return (
-        <nav className={classes.navigationBar}>
+        <nav className={classes.navigationBar + " fade-in"}>
             <ul>
                 <Logo />
                 <NavLink

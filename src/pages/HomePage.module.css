@@ -7,11 +7,23 @@
     max-height: none;
 }
 
-.imageFrame {
+.imageMainFrame {
     position: relative;
     height: 100vh;
     width: 100vw;
     overflow: hidden;
+}
+
+.PanelImg {
+    height: 80%;
+    width: auto;
+
+}
+
+.textDiv {
+    max-width: 30%;
+    letter-spacing: 5%;
+    text-align: center;
 }
 
 :global(#panel1) {

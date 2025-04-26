@@ -10,3 +10,7 @@
 - https://pixabay.com/photos/caffeine-coffee-cup-drink-espresso-1846280/
 - https://pixabay.com/photos/cup-coffee-table-drinks-beverage-6878196/
 - logo - ai generated
+- https://pixabay.com/photos/coffeehouse-bar-shop-cafe-espresso-2600877/
+- https://pixabay.com/photos/wooden-table-coffeehouse-shop-2594768/
+- https://pixabay.com/photos/garden-outdoor-cafe-cafe-7111101/
+- https://pixabay.com/photos/coffee-cafe-to-drink-brown-hot-5082544/
