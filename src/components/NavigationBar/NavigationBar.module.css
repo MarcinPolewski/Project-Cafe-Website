@@ -7,7 +7,6 @@
     display: flex;
     justify-content: center;
     z-index: 1000;
-    /* opacity: 0.9; */
     margin: 10px;
 }
 
@@ -29,3 +28,17 @@
     transform: scale(1.05) translateY(-0.15rem);
     transition: all 0.2s ease-in-out;
 } */
+
+.fadeIn {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInMove 1s ease forwards;
+    animation-delay: 0.1s;
+}
+
+@keyframes fadeInMove {
+    to {
+        opacity: 0.9;
+        transform: translateY(0);
+    }
+}
