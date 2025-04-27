@@ -10,6 +10,27 @@
       "panel2": "This is the text for second panel",
       "panel3": "This is the text for third panel"
   },
+  "about": {
+    "title": "About The Barista",
+    "description": "Founded in 2015, The Barista is a cozy café dedicated to serving the finest coffee sourced from sustainable farms around the world. Our baristas are trained to create the perfect cup every time, while our relaxing atmosphere makes it the ideal place to work, meet friends, or simply enjoy a moment of calm in your busy day.",
+    "address": "123 Coffee Street, Downtown, City 10001",
+    "openingHours": "Monday - Friday: 7:00 AM - 8:00 PM\nSaturday - Sunday: 8:00 AM - 6:00 PM",
+    "titleOpenHours": "When?",
+    "titleAddress": "Where?"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "We'd love to hear from you! Whether you have a question about our menu, want to book an event, or just want to say hi, feel free to reach out.",
+    "phone": "+1 (555) 123-4567",
+    "email": "hello@thebarista.com",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "message": "Your Message",
+      "submit": "Send Message"
+    }
+
+  },
   "footer": {
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"

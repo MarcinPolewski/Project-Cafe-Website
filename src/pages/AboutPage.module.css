@@ -1,0 +1,35 @@
+.text {
+    width: 30%;
+
+}
+
+.map {
+    width: 30%;
+    height: 50%;
+}
+
+:global(#backgroundPanel1) {
+    background-color: #3C3D37;
+    height: 100vh;
+}
+
+@media screen and (max-width: 800px) {
+    :global(#backgroundPanel1) {
+        flex-direction: column;
+        gap: 20px;
+        height: 100vh;
+        padding: 10px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .text {
+        width: 80%;
+        height: 50%;
+    }
+
+    .map {
+        width: 80%;
+        height: 50%;
+    }
+}

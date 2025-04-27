@@ -1,14 +1,24 @@
 {
-    "test": "Test pl",
-    "nav": {
-      "home": "Strona główna",
-      "about": "O nas",
-      "contact": "Kontakt"
-    },
-    "homePage":{
-      "title": "The Barista café",
-      "panel1": "text dla panelu 1",
-      "panel2": "text dla panelu 2",
-      "panel3": "text dla panelu 3"
-    }
+  "nav": {
+    "home": "Strona główna",
+    "about": "O nas",
+    "contact": "Kontakt"
+  },
+  "homePage":{
+    "title": "The Barista café",
+    "panel1": "text dla panelu 1",
+    "panel2": "text dla panelu 2",
+    "panel3": "text dla panelu 3"
+  },
+  "about": {
+    "title": "O The Barista",
+    "description": "Założona w 2015 roku, kawiarnia The Barista jest przytulnym miejscem poświęconym serwowaniu najlepszej kawy pochodzącej ze zrównoważonych upraw na całym świecie. Nasi bariści są przeszkoleni, aby za każdym razem tworzyć idealną filiżankę, a nasza relaksująca atmosfera sprawia, że jest to idealne miejsce do pracy, spotkań z przyjaciółmi lub po prostu chwili spokoju w ciągu dnia.",
+    "address": "ul. Kawowa 123, Centrum, Miasto 10001",
+    "openingHours": "Poniedziałek - Piątek: 7:00 - 20:00\nSobota - Niedziela: 8:00 - 18:00",
+    "phone": "+48 555 123 456",
+    "email": "witaj@thebarista.com"
+  },
+  "footer": {
+    "text": "Copyright © 2023 The Barista. Wszelkie prawa zastrzeżone."
+  }
 }
