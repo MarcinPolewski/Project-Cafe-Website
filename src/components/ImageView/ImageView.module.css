@@ -1,0 +1,35 @@
+.scrollingImages {
+    display: flex;
+    animation: scrollHorizontal 50s linear infinite;
+    height: 100%;
+}
+
+.scrollingImages:hover {
+    animation-play-state: paused;
+}
+
+.imageView {
+    background-color: red;
+    display: flex;
+    height: 40vh;
+}
+
+.imageContainer {
+    height: 100%;
+}
+
+.image {
+    object-fit: contain;
+    height: 100%;
+}
+
+
+@keyframes scrollHorizontal {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}

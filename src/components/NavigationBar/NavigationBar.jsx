@@ -1,7 +1,9 @@
 import { NavLink } from "react-router-dom";
-import LanguageSwitcher from "./LanguageSwitcher";
+import LanguageSwitcher from "../LanguageSwitcher/LanguageSwitcher";
 import { useTranslation } from "react-i18next";
-import Logo from "./Logo";
+import Logo from "../Logo/Logo";
+
+import classes from "./NavigationBar.module.css";
 
 function NavigationBar() {
     const { t, i18n } = useTranslation();
@@ -9,26 +11,26 @@ function NavigationBar() {
     console.log(i18n.language)
 
     return (
-        <nav>
+        <nav className={classes.navigationBar + " " + classes.fadeIn}>
             <ul>
                 <Logo />
                 <NavLink
                     to="/"
-                    className={({ isActive }) => (isActive ? "active" : "")}
+                    className={({ isActive }) => isActive ? "active" : ""}
                     end
                 >
                     {t("nav.home")}
                 </NavLink>
                 <NavLink
                     to="/about"
-                    className={({ isActive }) => (isActive ? "active" : "")}
+                    className={({ isActive }) => isActive ? "active" : ""}
                     end
                 >
                     {t("nav.about")}
                 </NavLink>
                 <NavLink
                     to="/contact"
-                    className={({ isActive }) => (isActive ? "active" : "")}
+                    className={({ isActive }) => isActive ? "active" : ""}
                     end
                 >
                     {t("nav.contact")}

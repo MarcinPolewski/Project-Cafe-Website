@@ -2,12 +2,12 @@ import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 
-import enUiElements from "./locales/en/uiElements.json";
-import plUiElements from "./locales/pl/uiElements.json";
+import commmonEN from "./locales/en/common.json";
+import commmonPL from "./locales/pl/common.json";
 
 const RESOURCES = {
-    en: { uiElements: enUiElements },
-    pl: { uiElements: plUiElements },
+    en: { common: commmonEN },
+    pl: { common: commmonPL },
 }
 
 i18n
@@ -16,8 +16,8 @@ i18n
     .init({
         resources: RESOURCES,
         fallbackLng: "en",
-        ns: ["uiElements"],
-        defaultNS: "uiElements",
+        ns: ["common"],
+        defaultNS: "common",
         interpolation: {
             escapeValue: false,
         },

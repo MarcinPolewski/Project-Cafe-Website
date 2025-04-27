@@ -1,0 +1,14 @@
+{
+    "test": "Test pl",
+    "nav": {
+      "home": "Strona główna",
+      "about": "O nas",
+      "contact": "Kontakt"
+    },
+    "homePage":{
+      "title": "The Barista café",
+      "panel1": "text dla panelu 1",
+      "panel2": "text dla panelu 2",
+      "panel3": "text dla panelu 3"
+    }
+}

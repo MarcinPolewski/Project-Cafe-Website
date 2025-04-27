@@ -1,0 +1,53 @@
+.mainImage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: none;
+    max-height: none;
+}
+
+.imageMainFrame {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.PanelImg {
+    height: 80%;
+    width: auto;
+
+}
+
+
+
+.textDiv {
+    max-width: clamp(10px, 30%, 30%);
+    letter-spacing: 5%;
+    text-align: center;
+}
+
+:global(#panel1) {
+    background-color: #697565;
+}
+
+:global(#panel2) {
+    background-color: #3C3D37;
+}
+
+:global(#panel3) {
+    background-color: #D6C0B3;
+}
+
+@media screen and (max-width: 500px) {
+    .PanelImg {
+        height: 60%;
+        width: auto;
+    }
+
+    .textDiv {
+        max-width: 80%;
+    }
+
+}

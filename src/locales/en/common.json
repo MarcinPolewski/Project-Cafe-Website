@@ -1,0 +1,17 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "homePage":{
+      "title": "The Barista café",
+      "panel1": "Meet the place where quality meets taste.\nOur coffee is brewed to perfection, ensuring every sip is a delight. \nWhether you prefer a classic espresso or a creamy latte, we have something for everyone.",
+      "panel2": "This is the text for second panel",
+      "panel3": "This is the text for third panel"
+  },
+  "footer": {
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  }
+}
