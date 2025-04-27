@@ -1,12 +1,11 @@
-import classes from "./ImageView.module.css";
-
+import './ImageView.css';
 
 function ScrollingImages({ images }) {
     return (
-        <div className={classes.scrollingImages}>
+        <div className="scrollingImages">
             {images.map((image, index) => (
-                <div key={index} className={classes.imageContainer}>
-                    <img src={image} alt={`Image ${index + 1}`} className={classes.image} />
+                <div key={index} className="imageContainer">
+                    <img src={image} alt={`Image ${index + 1}`} className="imageFromScroll" />
                 </div>
             ))}
         </div>);
@@ -15,7 +14,7 @@ function ScrollingImages({ images }) {
 // 5 obrazków co się przesuwa
 function ImageView({ images }) {
     return (
-        <div className={classes.imageView}>
+        <div className="imageView">
             <ScrollingImages images={images} />
             <ScrollingImages images={images} /> {/* two times to guarantee continous scroll*/}
         </div>);
