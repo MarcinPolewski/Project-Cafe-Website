@@ -1,20 +1,22 @@
 .navigationBar {
     height: 50px;
     width: 100%;
+
     background-color: #ECDFCC;
+    top: 0px;
 
     position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 1000;
-    margin: 10px;
+    margin: 0;
 }
 
 .navigationBar ul {
-    height: 100%;
-    margin: 0;
     padding: 0;
+    margin: 0;
+    height: 100%;
     display: flex;
     gap: 1rem;
     align-items: center;
@@ -24,6 +26,8 @@
 .navigationBar a {
     color: #1E201E;
 }
+
+
 
 /* .navigationBar a.active {
     color: #000;
