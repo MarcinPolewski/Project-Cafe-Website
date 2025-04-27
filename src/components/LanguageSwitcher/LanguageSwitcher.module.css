@@ -1,0 +1,15 @@
+.languageSwitcher {
+    background-color: transparent;
+    color: #1E201E;
+}
+
+.languageSwitcher:hover {
+    background-color: #ECDFCC;
+    color: #1E201E;
+    transform: scale(1.05) translateY(-0.15rem);
+    transition: all 0.2s ease-in-out;
+}
+
+.languageSwticher::selection {
+    appearance: none;
+}

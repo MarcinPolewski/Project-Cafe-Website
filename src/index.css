@@ -30,8 +30,9 @@ body {
 
 }
 
-
-
+select {
+  outline: none;
+}
 
 
 /* :root {

@@ -1,5 +1,7 @@
 import { useTranslation } from "react-i18next";
-import { SUPPORTED_LANGUAGES } from "../i18n";
+import { SUPPORTED_LANGUAGES } from "../../i18n";
+
+import classes from "./LanguageSwitcher.module.css";
 
 export default function LanguageSwitcher() {
     const { _, i18n } = useTranslation();
@@ -13,7 +15,11 @@ export default function LanguageSwitcher() {
     const currentLanguage = i18n.language;
 
     return (
-        <select onChange={handleLanguageChange} value={currentLanguage}>
+        <select
+            onChange={handleLanguageChange}
+            value={currentLanguage}
+            className={classes.languageSwitcher}
+        >
             {availableLanguages.map((language) => (
                 <option key={language} value={language}>
                     {language}
