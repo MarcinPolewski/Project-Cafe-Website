@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import LanguageSwitcher from "../LanguageSwitcher";
+import LanguageSwitcher from "../LanguageSwitcher/LanguageSwitcher";
 import { useTranslation } from "react-i18next";
 import Logo from "../Logo/Logo";
 
