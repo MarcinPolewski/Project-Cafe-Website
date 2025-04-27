@@ -1,0 +1,26 @@
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #697565;
+    padding: 20px;
+}
+
+.inputWithHeading {
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.inputWithHeading input,
+.inputWithHeading textarea {
+    outline: none;
+    background-color: transparent;
+    border: 1px solid #ccc;
+}
+
+.inputWithHeading textarea {
+    resize: none;
+    height: 100%;
+}

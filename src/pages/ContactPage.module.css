@@ -1,0 +1,14 @@
+:global(#contactPanel1) {
+    background-color: #3C3D37;
+    height: 100vh;
+}
+
+
+:global(#contactForm) {
+    width: 30%;
+    height: 50%;
+}
+
+:global(#contactInfo) {
+    width: 20%
+}
