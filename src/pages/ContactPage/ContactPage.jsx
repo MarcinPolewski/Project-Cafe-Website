@@ -1,8 +1,8 @@
 import { useTranslation } from "react-i18next";
-import ContactForm from "../components/ContactForm/ContactForm";
-import Panel from "../components/Panel/Panel";
-import { customerSentMessage } from "../util/serverComunication";
-import TitleValuePair from "../components/TitleValuePair/TitleValuePair";
+import ContactForm from "../../components/ContactForm/ContactForm";
+import Panel from "../../components/Panel/Panel";
+import { customerSentMessage } from "../../util/serverComunication";
+import TitleValuePair from "../../components/TitleValuePair/TitleValuePair";
 
 import _ from "./ContactPage.module.css";
 

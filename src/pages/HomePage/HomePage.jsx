@@ -1,15 +1,15 @@
-import Panel from "../components/Panel/Panel";
+import Panel from "../../components/Panel/Panel";
 import classes from "./HomePage.module.css"
 import { useTranslation } from "react-i18next";
 
-import coffeeCupImage from "../static/coffeeCup.jpg"
-import coffeeMakerImage from "../static/coffeeMaker.jpg"
-import coffeeOnTable from "../static/coffeeOnTable.jpg"
-import ImageView from "../components/ImageView/ImageView";
-import cafeCounterImg from "../static/cafeCounter.jpg";
-import cafeGardenImg from "../static/cafeGarden.jpg";
-import cafeTablesImg from "../static/cafeTables.jpg";
-import coffeePouringImg from "../static/coffeePouring.jpg";
+import coffeeCupImage from "../../static/coffeeCup.jpg"
+import coffeeMakerImage from "../../static/coffeeMaker.jpg"
+import coffeeOnTable from "../../static/coffeeOnTable.jpg"
+import ImageView from "../../components/ImageView/ImageView";
+import cafeCounterImg from "../../static/cafeCounter.jpg";
+import cafeGardenImg from "../../static/cafeGarden.jpg";
+import cafeTablesImg from "../../static/cafeTables.jpg";
+import coffeePouringImg from "../../static/coffeePouring.jpg";
 
 
 const IMAGES = [

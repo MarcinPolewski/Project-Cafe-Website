@@ -1,4 +1,4 @@
-import Panel from "../components/Panel/Panel"
+import Panel from "../../components/Panel/Panel"
 import classes from "./AboutPage.module.css"
 import { useTranslation } from "react-i18next";
 

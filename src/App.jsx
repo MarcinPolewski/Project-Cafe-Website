@@ -2,11 +2,11 @@ import './App.css'
 // import LanguageSwitcher from './components/LanguageSwitcher'
 // import { useTranslation } from 'react-i18next';
 import { createHashRouter, RouterProvider } from 'react-router-dom';
-import HomePage from './pages/HomePage';
-import AboutPage from './pages/AboutPage';
-import ContactPage from './pages/ContactPage';
+import HomePage from './pages/HomePage/HomePage';
+import AboutPage from './pages/AboutPage/AboutPage';
+import ContactPage from './pages/ContactPage/ContactPage';
 import RootLayout from './layouts/RootLayout';
-import ErrorPage from './pages/ErrorPage';
+import ErrorPage from './pages/ErrorPage/ErrorPage';
 
 const router = createHashRouter([
   {
