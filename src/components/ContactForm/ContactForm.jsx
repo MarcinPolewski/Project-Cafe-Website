@@ -12,7 +12,7 @@ function ContactForm({ onSubmit, heading, ...props }) {
     return (
         <div className={classes.contactForm} {...props}>
             <h1>{heading}</h1>
-            <form onSubmit={handleSubmit} >
+            <form onSubmit={handleSubmit}>
                 <div className={classes.inputWithHeading}>
                     <label htmlFor="name">Name:</label>
                     <input type="text" id="name" name="name" required />
@@ -21,7 +21,7 @@ function ContactForm({ onSubmit, heading, ...props }) {
                     <label htmlFor="email">Email:</label>
                     <input type="email" id="email" name="email" required />
                 </div>
-                <div className={classes.inputWithHeading}>
+                <div className={classes.textAreaWithHeading}>
                     <label htmlFor="message">Message:</label>
                     <textarea id="message" name="message" required></textarea>
                 </div>

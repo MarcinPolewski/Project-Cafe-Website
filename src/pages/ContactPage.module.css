@@ -12,3 +12,27 @@
 :global(#contactInfo) {
     width: 20%
 }
+
+@media screen and (max-width: 1100px) {
+    :global(#contactPanel1) {
+        height: 200vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    :global(#contactForm) {
+        max-width: 400px;
+        width: 80%;
+        height: 80%;
+        max-height: 400px;
+    }
+
+    :global(#contactInfo) {
+        width: 80%;
+        text-align: center;
+    }
+
+
+
+}
