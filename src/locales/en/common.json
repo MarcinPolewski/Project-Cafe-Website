@@ -42,7 +42,9 @@
       "email": "Email",
       "message": "Message",
       "submit": "Send",
-      "reset": "Reset"
+      "reset": "Reset",
+      "resultHeading": "Message Sent!",
+      "subHeading": "We'll reply ASAP"
     }
 
 
