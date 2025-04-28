@@ -4,7 +4,7 @@ import Panel from "../../components/Panel/Panel";
 import { customerSentMessage } from "../../util/serverComunication";
 import TitleValuePair from "../../components/TitleValuePair/TitleValuePair";
 
-import _ from "./ContactPage.module.css";
+import "./ContactPage.module.css";
 
 function TranslatedContactInformation({ type, t }) {
 
