@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { SUPPORTED_LANGUAGES } from "../../i18n";
+import { SUPPORTED_LANGUAGES } from "../../util/i18n";
 
 import classes from "./LanguageSwitcher.module.css";
 
