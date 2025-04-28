@@ -29,10 +29,10 @@ function HomePage() {
             </div>
             <Panel id="panel1">
                 <img src={coffeeMakerImage} className={classes.PanelImg} alt="coffeeMaker" />
-                <div className={classes.textDiv}>{t("homePage.panel1", { defaultValue: 'def' })}</div>
+                <div className={classes.textDiv}><span>{t("homePage.panel1", { defaultValue: 'def' })}</span></div>
             </Panel >
             <Panel id="panel2">
-                <div className={classes.textDiv}>{t("homePage.panel1", { defaultValue: 'def' })}</div>
+                <div className={classes.textDiv}><span>{t("homePage.panel2", { defaultValue: 'def' })}</span></div>
                 <img src={coffeeOnTable} className={classes.PanelImg} alt="coffeeMaker" />
             </Panel >
             <ImageView images={IMAGES} />
