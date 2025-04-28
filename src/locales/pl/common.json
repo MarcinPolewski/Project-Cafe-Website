@@ -5,20 +5,48 @@
     "contact": "Kontakt"
   },
   "homePage":{
-    "title": "The Barista café",
-    "panel1": "text dla panelu 1",
-    "panel2": "text dla panelu 2",
-    "panel3": "text dla panelu 3"
+    "title": "Kawiarnia The Barista",
+    "panel1": "Poznaj miejsce, gdzie jakość spotyka się ze smakiem.\nNasza kawa jest parzona do perfekcji, zapewniając, że każdy łyk jest rozkoszą.\nNiezależnie od tego, czy wolisz klasyczne espresso, czy kremowe latte, mamy coś dla każdego.",
+    "panel2": "Tekst dla drugiego panelu",
+    "panel3": "Tekst dla trzeciego panelu"
   },
   "about": {
     "title": "O The Barista",
     "description": "Założona w 2015 roku, kawiarnia The Barista jest przytulnym miejscem poświęconym serwowaniu najlepszej kawy pochodzącej ze zrównoważonych upraw na całym świecie. Nasi bariści są przeszkoleni, aby za każdym razem tworzyć idealną filiżankę, a nasza relaksująca atmosfera sprawia, że jest to idealne miejsce do pracy, spotkań z przyjaciółmi lub po prostu chwili spokoju w ciągu dnia.",
     "address": "ul. Kawowa 123, Centrum, Miasto 10001",
     "openingHours": "Poniedziałek - Piątek: 7:00 - 20:00\nSobota - Niedziela: 8:00 - 18:00",
-    "phone": "+48 555 123 456",
-    "email": "witaj@thebarista.com"
+    "titleOpenHours": "Kiedy?",
+    "titleAddress": "Gdzie?"
+  },
+  "contact": {
+    "formTitle": "Skontaktuj się z nami",
+    "informationTitle": "Informacje kontaktowe",
+    "phone": {
+      "title": "Telefon",
+      "content": "+48 123 456 789 1"
+    },
+    "email": {
+      "title": "E-mail",
+      "content": "witaj@thebarista.com"
+    },
+    "nip": {
+      "title": "NIP",
+      "content": "12345678911234"
+    },
+    "krs": {
+      "title": "KRS",
+      "content": "12345678911234"
+    },
+    "form": {
+      "name": "Imię i nazwisko",
+      "email": "E-mail",
+      "message": "Wiadomość",
+      "submit": "Wyślij",
+      "reset": "Wyczyść"
+    }
   },
   "footer": {
-    "text": "Copyright © 2023 The Barista. Wszelkie prawa zastrzeżone."
+    "privacyPolicy": "Polityka prywatności",
+    "termsOfService": "Warunki korzystania z usług"
   }
 }

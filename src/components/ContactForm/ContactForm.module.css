@@ -4,20 +4,27 @@
     gap: 20px;
     background-color: hsl(105, 7%, 43%);
     padding: 20px;
+    max-width: 500px;
+}
+
+.contactForm button {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    padding: 5px;
 }
 
 .contactForm form {
     height: 100%;
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 .inputWithHeading,
 .textAreaWithHeading {
-
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 0px;
 }
 
 .inputWithHeading input,
@@ -36,4 +43,9 @@
 .textAreaWithHeading textarea {
     resize: none;
     flex-grow: 1;
+}
+
+.buttonContainer {
+    display: flex;
+    gap: 1rem;
 }
