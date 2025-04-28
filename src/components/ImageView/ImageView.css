@@ -9,8 +9,9 @@
 }
 
 .imageView {
-    background-color: red;
+    background-color: black;
     display: flex;
+    gap: 0;
     height: 40vh;
     overflow: hidden;
 }

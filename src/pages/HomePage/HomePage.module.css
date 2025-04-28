@@ -20,10 +20,13 @@
 
 }
 
-
-
 .textDiv {
-    max-width: clamp(10px, 30%, 30%);
+    max-width: min(400px, 30%);
+
+}
+
+.textDiv span {
+    display: inline-block;
     letter-spacing: 5%;
     text-align: center;
 }

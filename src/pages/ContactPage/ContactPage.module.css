@@ -1,6 +1,7 @@
 :global(#contactPanel1) {
     background-color: #3C3D37;
     height: 100vh;
+    max-height: 100vh;
 }
 
 
