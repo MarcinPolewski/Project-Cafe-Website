@@ -1,12 +1,30 @@
-# Actions used in CI
+# About
+Three page website created to practise React Router, i18n and GitHub Actions
+
+Repository has a pipeline for auto deployment via GitHub pages
+
+# Result Photos
+
+## Main Page
+![Main Page](./ResultPhotos/main_page.png)
+
+## Information Page
+![Information Page](./ResultPhotos/information_page.png)
+
+## Contact Form
+![Contact Form](./ResultPhotos/contact_form.png)
+
+# Used Resourecs
+
+## Actions used in CI
 - https://github.com/actions/deploy-pages
 - https://github.com/actions/upload-pages-artifact
 - https://vite.dev/guide/static-deploy
 
-# colours:
+## colours:
 - https://colorhunt.co/palette/1e201e3c3d37697565ecdfcc
 
-# Images:
+## Images:
 - https://pixabay.com/photos/caffeine-coffee-cup-drink-espresso-1846280/
 - https://pixabay.com/photos/cup-coffee-table-drinks-beverage-6878196/
 - logo - ai generated
