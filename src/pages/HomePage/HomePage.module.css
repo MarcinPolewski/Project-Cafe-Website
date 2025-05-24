@@ -31,6 +31,20 @@
     text-align: center;
 }
 
+.companyName {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: clamp(30px, 5vw, 50px);
+    letter-spacing: clamp(0.5rem, 1vw, 1rem);
+    font-weight: 300;
+    background-color: #ecdfcc14;
+    text-align: center;
+    /* width: 90%; */
+    color: #ECDFCC;
+}
+
 :global(#panel1) {
     background-color: #697565;
 }
@@ -53,4 +67,8 @@
         max-width: 80%;
     }
 
+    .companyName {
+        font-size: clamp(24px, 8vw, 36px);
+        letter-spacing: 0.5rem;
+    }
 }

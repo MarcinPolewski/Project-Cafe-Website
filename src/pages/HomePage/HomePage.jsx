@@ -26,6 +26,7 @@ function HomePage() {
         <>
             <div className={classes.imageMainFrame}>
                 <img src={coffeeCupImage} className={classes.mainImage} alt="coffee image" />
+                {/* <h1 className={classes.companyName}>The Barista</h1> */}
             </div>
             <Panel id="panel1">
                 <img src={coffeeMakerImage} className={classes.PanelImg} alt="coffeeMaker" />
